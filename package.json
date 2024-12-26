@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@auth0/nextjs-auth0": "^3.5.0",
+    "@radix-ui/react-toast": "^1.2.4",
     "dotenv": "^16.4.7",
     "git": "^0.1.5",
     "mongodb": "^6.12.0",

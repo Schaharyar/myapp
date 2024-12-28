@@ -13,6 +13,7 @@
     "@radix-ui/react-toast": "^1.2.4",
     "dotenv": "^16.4.7",
     "git": "^0.1.5",
+    "lottie-react": "^2.4.0",
     "mongodb": "^6.12.0",
     "next": "15.1.2",
     "next-auth": "^4.24.11",

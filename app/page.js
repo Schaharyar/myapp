@@ -1,6 +1,7 @@
 import FlexibleSection from "./_components/FlexibleSection";
 import Header from "./_components/Header";
 import Hero from "./_components/Hero";
+import IconSection from "./_components/IconSection";
 
 
 
@@ -12,10 +13,14 @@ export default function Home() {
     <Header />
 
     {/* Hero Section */}
-    <Hero />
+    {/* <Hero /> */}
 
     {/* FlexibleSection */}
-    <FlexibleSection /> 
+    {/* <FlexibleSection />  */}
+
+
+    {/* IconSection */}
+    <IconSection />
     </>
   );
 }

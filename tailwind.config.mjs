@@ -10,6 +10,7 @@ export default {
 			colors: {
 				background: "var(--background)",
 				foreground: "var(--foreground)",
+				color: "rgb(8,193,138)"
 			},
 		},
 	},

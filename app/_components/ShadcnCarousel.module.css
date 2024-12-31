@@ -1,23 +1,16 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-/* globals.css or main.css */
-/* Default inactive dots */
+/* ShadcnCarousel.module.css */
 .dot-inactive {
-    background-color: #d1d5db; /* Gray color */
+    background-color: #d1d5db;
     transform: scale(1);
     transition: transform 0.5s, background-color 0.5s;
   }
   
-  /* Active dot with water drop effect */
   .dot-active {
-    background-color: #f97316; /* Orange color */
-    transform: scale(1.5) skewX(-10deg); /* Creates the water drop shape */
+    background-color: #f97316;
+    transform: scale(1.5) skewX(-10deg);
     animation: water-drop 0.5s ease-out forwards;
   }
   
-  /* Water drop animation */
   @keyframes water-drop {
     0% {
       transform: scale(1.5) skewX(-10deg);
@@ -29,4 +22,4 @@
       transform: scale(1.5) skewX(-10deg);
     }
   }
-      
+  

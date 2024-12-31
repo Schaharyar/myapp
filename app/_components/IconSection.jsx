@@ -1,4 +1,5 @@
 "use client";
+import styles from './ShadcnCarousel.module.css'
 import React, { useState, useRef, useEffect } from "react";
 
 function IconSection() {
@@ -61,6 +62,7 @@ function IconSection() {
             buttonText="Coming soon"
             buttonClass="bg-gray-200 text-gray-600 px-4 py-2 rounded-md text-sm cursor-not-allowed"
           />
+
         </div>
       </div>
     </section>
@@ -111,12 +113,10 @@ function ShadcnCarousel({ children }) {
       <div className="flex justify-center mt-4 space-x-2">
         {React.Children.map(children, (_, index) => (
           <div
-            key={index}
-            className={`w-3 h-3 rounded-full transition-colors duration-300 ${
-              index === currentIndex
-                ? "bg-orange-500 scale-125"
-                : "bg-gray-400"
-            }`}
+          key={index}
+          className={`w-3 h-3 rounded-full transition-all duration-500 ${
+            index === currentIndex ? "dot-active" : "dot-inactive"
+          }`}
           ></div>
         ))}
       </div>

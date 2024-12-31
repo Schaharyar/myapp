@@ -25,18 +25,22 @@ function FlexibleSection() {
 
   return (
     <div className="relative flex flex-col md:flex-row items-center justify-center bg-gray-100 px-8 py-16 overflow-hidden">
-      {/* Text Section */}
-      <div className="md:w-1/3 flex flex-col items-center md:items-start text-center md:text-left mb-8 md:mb-0">
-        <h2 className="text-2xl md:text-4xl font-bold mb-4">Flexible</h2>
-        <p className="text-md md:text-lg text-gray-600 mb-6">
-          Because Lordicons are highly versatile, you can use them any way you like—whether static or animated.
-        </p>
-        <div className="flex flex-col items-center md:items-start">
-          <button className="bg-green-500 text-white px-4 py-2 rounded-md hover:bg-green-600 mb-4">
-            Download free!
-          </button>
-        </div>
+{/* Text Section */}
+    <div className="md:w-1/3 flex flex-col items-center md:items-start text-center md:text-left mb-8 md:mb-0 md:ml-8">
+      <h2 className="text-2xl md:text-4xl font-bold mb-4">
+        Flexible
+      </h2>
+      <p className="text-md md:text-lg text-gray-600 mb-6">
+        Because Lordicons are highly versatile, you can use them any way you like—whether static or animated.
+      </p>
+      <div className="flex flex-col items-center md:items-start">
+        <button className="bg-green-500 text-white px-4 py-2 rounded-md hover:bg-green-600 mb-4">
+          Download free!
+        </button>
       </div>
+    </div>
+
+
 
       {/* Animation Section */}
       <div className="md:w-2/3 flex justify-center relative">
